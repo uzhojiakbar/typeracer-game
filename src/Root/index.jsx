@@ -1,11 +1,10 @@
-import Game from "../Components/Game";
+import React from "react";
+import Body from "../Components/Body";
 
-const Root = () => {
+let Root = () => {
     return (
-        <div>
-            <Game/>
-        </div>
+        <Body/>
     )
-}
+};
 
 export default Root;
